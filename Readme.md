@@ -7,3 +7,4 @@ A place to play with some front-end things.
 * [Six button animations](https://codepen.io/Vedderlino/pen/JpYxXr)
 * [Footer fixed at the bottom page](https://codepen.io/Vedderlino/full/LQGBro/)
 * [Responsive Dropdown Menu](https://codepen.io/Vedderlino/full/wyGWpG/)
+* [Parallax Effect Attempt](https://youtu.be/kEb0zqEwQPg/)
