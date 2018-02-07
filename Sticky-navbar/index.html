@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cat Cafe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="logo">
+                    CAT CAFE
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+            </nav>
+        </header>
+
+        <div class="content">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa diam, fringilla et magna eu, consequat tincidunt justo. Maecenas placerat elit quis auctor egestas. Sed tempus, erat eget rutrum tempor, nisi nisi feugiat mauris, a auctor nisi libero eget lectus. Praesent neque magna, pretium at varius eu, luctus a tellus. Sed molestie, odio et accumsan ornare, mi quam dapibus est, ut gravida lorem velit eget tortor. Sed in pharetra dui, ac feugiat dui. Pellentesque eget auctor nisl. 
+            </p>
+            <p>
+                Curabitur in mattis lorem. Nulla at lectus fermentum, gravida augue et, molestie nulla. Morbi gravida libero non justo gravida, sit amet pharetra dui facilisis. Quisque euismod arcu eu convallis posuere. Aliquam facilisis risus neque, vitae aliquet risus molestie ac. Nunc porta fringilla nunc in cursus. Mauris enim risus, venenatis et odio eu, faucibus dictum dui. Pellentesque accumsan eros quis eros sollicitudin, ac ullamcorper turpis interdum. 
+            </p>
+            <p>
+                Etiam vitae nulla sollicitudin, pretium nibh vitae, varius nisi. Fusce a malesuada mi. Mauris accumsan ullamcorper nulla non dictum. Aenean sollicitudin augue ac elit egestas cursus. Duis eleifend velit nec auctor rutrum. Aenean in placerat metus. Nam ullamcorper augue ac nisi suscipit bibendum. 
+            </p>    
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        //menu toggle-button
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                $("nav ul").toggleClass("showing");
+            });
+        });
+
+        //scrolling effect
+        $(window).on("scroll", function(){
+            if($(window).scrollTop()){
+                $('nav').addClass('black');
+            }
+            else {
+                $('nav').removeClass('black');
+            }
+        })
+
+    </script>
+
+</body>
+</html>

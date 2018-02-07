@@ -8,3 +8,4 @@ A place to play with some front-end things.
 * [Footer fixed at the bottom page](https://codepen.io/Vedderlino/full/LQGBro/)
 * [Responsive Dropdown Menu](https://codepen.io/Vedderlino/full/wyGWpG/)
 * [Parallax Effect Attempt](https://youtu.be/kEb0zqEwQPg/)
+* [Responsive Sticky Navbar](https://codepen.io/Vedderlino/full/BYLEoy/)
