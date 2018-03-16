@@ -9,3 +9,5 @@ A place to play with some front-end things.
 * [Responsive Dropdown Menu](https://codepen.io/Vedderlino/full/wyGWpG/)
 * [Parallax Effect Attempt](https://youtu.be/kEb0zqEwQPg/)
 * [Responsive Sticky Navbar](https://codepen.io/Vedderlino/full/BYLEoy/)
+* [CSS Slideshow Animation](https://codepen.io/Vedderlino/full/aYZqxa/)
+* [Hover ImgZoom Effect](https://codepen.io/Vedderlino/full/QmEQzd/)
